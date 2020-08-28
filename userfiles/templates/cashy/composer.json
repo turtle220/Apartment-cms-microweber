@@ -1,0 +1,11 @@
+{
+  "name": "microweber-templates/cashy",
+  "description": "Cashy",
+  "homepage": "https://microweber.org/templates/microweber-templates/cashy",
+  "license": "MIT",
+  "type": "microweber-template",
+  "target-dir": "cashy",
+  "extra": {
+    "preview_url": "https://templates.microweber.com/cashy/"
+  }
+}

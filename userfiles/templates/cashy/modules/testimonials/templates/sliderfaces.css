@@ -1,0 +1,150 @@
+/* Faces */
+.testimonials-faces-wrapper {
+    background: url('img/testimonials_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials-faces-wrapper .title-holder {
+   padding: 60px 0 30px 0;
+}
+
+.testimonials-faces-wrapper .testimonials-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonials-faces-wrapper h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.testimonials-faces-wrapper .mwt-faces {
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+    height: 170px;
+}
+
+.testimonials-faces-wrapper .mwt-face {
+    display: inline-block;
+    position: relative;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.testimonials-faces-wrapper .subactive > .mwt-face {
+    width: 75px;
+    height: 75px;
+    opacity: 1
+}
+
+.testimonials-faces-wrapper .active > .mwt-face {
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    margin: 0 10px;
+}
+
+.testimonials-faces-wrapper .mw-testimonials-item-faces {
+    outline: none
+}
+
+.testimonials-faces-wrapper .mw-testimonials-faces {
+    background: white;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+}
+
+.testimonials-faces-wrapper .mw-testimonials-faces .slick-dots {
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.testimonials-faces-wrapper .mw-testimonials-faces .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+    background: #FFA800;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.testimonials-faces-wrapper .mw-testimonials-faces .slick-dots li.slick-active {
+    background-color: white;
+}
+
+.testimonials-faces-wrapper .mw-testimonials-faces .slick-dots li button {
+    opacity: 0;
+    position: absolute;
+}
+
+.testimonials-faces-wrapper .mwt-face-name {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    font-size: 21px;
+    margin-top: 31px;
+    color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0
+}
+
+.testimonials-faces-wrapper .active > .mwt-face-name {
+    opacity: 1;
+}
+
+.testimonials-faces-wrapper .mw-testimonials-item-faces-content {
+    text-align: center;
+    font-size: 16px;
+    color: #5a5a5a
+}
+
+.testimonials-faces-wrapper .faces-laquo,
+.testimonials-faces-wrapper .faces-raquo {
+    display: inline-block !important;
+    position: relative;
+    width: 23px;
+    height: 18px;
+}
+
+.testimonials-faces-wrapper .faces-laquo {
+    margin-right: 5px;
+    top: -5px;
+    background: url(img/laquo.png) no-repeat;
+}
+
+.testimonials-faces-wrapper .faces-raquo {
+    margin-left: 5px;
+    top: 5px;
+    background: url(img/raquo.png) no-repeat;
+}

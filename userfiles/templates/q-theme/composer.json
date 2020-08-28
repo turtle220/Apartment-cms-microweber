@@ -1,0 +1,22 @@
+{
+  "name": "microweber/template-q-theme",
+  "type": "microweber-template",
+  "description": "Q-Theme",
+  "keywords": [
+    "microweber",
+    "ecommerce",
+    "modern"
+  ],
+  "homepage": "https://microweber.org/templates/microweber/template-q-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "contacts@microweber.com"
+    }
+  ],
+  "target-dir": "q-theme",
+  "extra": {
+    "preview_url": "https://templates.microweber.com/qtheme/"
+  }
+}
